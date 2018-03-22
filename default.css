@@ -1,0 +1,331 @@
+
+html{
+  margin-top: 28px;
+  margin-left: 20px;
+}
+
+body {
+  font-family: "Appian Open Sans", Sans-Serif !important;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+a {
+  color: #1d659c !important;
+}
+
+.sectionLabel {
+  font-size: 1.4rem !important;
+  font-weight: 700 !important;
+  color: #1d659c !important;
+  word-wrap: break-word !important;
+  margin-bottom: 0.7rem !important;
+}
+
+.componentLabel {
+  color: #222 !important;
+  line-height: 1.4 !important;
+  font-size: .9em !important;
+  font-weight: 700 !important;
+  padding: 0 0 6px 0 !important;
+}
+
+.componentInstructions {
+  font-weight: normal !important;
+  color: #666666;
+  font-size: 0.8rem !important;
+  line-height: 1.3rem !important;
+}
+
+.normalText {
+  color: #000000;
+  font-size: 0.9rem !important;
+  line-height: 1.4 !important;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.adjacentLabelColumn {
+  width: 116px;
+  padding-right: 10px;
+  float: left;
+}
+
+.adjacentLabelClear {
+  clear: both;
+}
+
+table{
+  width: 100% !important;
+  padding: 0 !important;
+  font-size: 0.9rem !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  border: 1px solid #eee !important;
+  margin-bottom : 5px;
+}
+
+
+table thead{
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tbody{
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+table thead th{
+  font-weight: 550 !important;
+  color: #222 !important;
+  line-height: 1.4 !important;
+  text-align: left !important;
+  word-wrap: break-word !important;
+  max-width: 300px !important;
+}
+
+td, th {
+  border-left: 1px solid #eee !important;
+  min-height: 1.4286rem !important;
+  border-top: 1px solid #eee !important;
+  font-weight: normal !important;
+  vertical-align: middle !important;
+  text-align: left !important;
+  padding: 0.6rem !important;
+  color: #222 !important;
+}
+
+table.DENSE th{
+  padding: 0.2rem 0.2rem !important;
+}
+
+table.DENSE td{
+  padding: 0.05rem 0.05rem !important;
+}
+
+table.LIGHT, table.LIGHT th, table.LIGHT td {
+  border: 0 !important;
+}
+
+td .componentWrapper{
+  padding : 0;
+  margin : 0;
+}
+
+td .normalText{
+  line-height: 1.4 !important;
+  color: #222 !important;
+  word-wrap: break-word !important;
+  margin : 0 !important;
+  padding: 0rem !important;
+}
+
+.tfooter{
+  text-align : right !important;
+}
+
+.boxLayout{
+  border: 1px solid #d4d4d4 !important;
+  padding: 0 !important;
+}
+
+.boxLayoutLabel{
+  color: #555;
+  font-weight: 700 !important;
+  padding: 0.5714rem 0.8571rem !important;
+}
+
+.contentLayout{
+  padding: 0.5714rem 0.8571rem !important;
+}
+
+.SUCCESS .boxLayoutLabel{
+  background-color: #d3ffc7 !important;
+}
+
+.INFO{
+  border-color: #b9ceea !important;
+}
+
+.INFO .boxLayoutLabel{
+  background-color: #ecf4ff !important;
+  color: #2c5791 !important;
+}
+
+.WARN .boxLayoutLabel{
+  background-color: #feffd2 !important;
+  color: #555 !important;
+}
+
+.ERROR{
+  border-color: #ff92ad !important;
+}
+
+.ERROR .boxLayoutLabel{
+  background-color: #ffefef !important;
+  color: #de0037 !important;
+}
+
+.ACCENT{
+  border-color: #a8a6a6 !important;
+}
+
+.ACCENT .boxLayoutLabel{
+  background-color: #1d659c !important;
+  color: #ffffff !important;
+}
+
+.columnLayout {
+  margin-bottom: 0.7143rem !important;
+}
+
+.columnLayout .componentWrapper{
+  display: table !important;
+  width: 100% !important;
+  table-layout: fixed !important;
+  text-align: left !important;
+  word-wrap: break-word !important;
+  margin: 0rem !important;
+}
+
+img.start {
+  float: left;
+  border: 3px solid transparent;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid transparent;
+}
+
+img.end {
+  float: right;
+  border: 3px solid transparent;
+}
+
+img.ICON {
+  height: 20px;
+  width: auto;
+}
+
+img.TINY {
+  height: 40px;
+  width: auto;
+}
+
+img.SMALL {
+  height: 60px;
+  width: auto;
+}
+
+img.GALLERY {
+  height: 100px;
+  width: auto;
+}
+
+img.MEDIUM {
+  height: 160px;
+  width: auto;
+}
+
+img.LARGE {
+  height: 240px;
+  width: auto;
+}
+
+img.FIT {
+  height: auto;
+  width: auto;
+}
+
+img.avatar 
+{
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.strongText {
+  font-weight: 550 !important;
+}
+
+.emphasisText {
+  font-style: italic !important;
+}
+
+.underlineText {
+  text-decoration: underline !important;
+}
+
+.accentText {
+  color: #1d659c !important;
+}
+
+.positiveText {
+  color: #1ce212 !important;
+}
+
+.negativeText {
+  color: #de0037 !important;
+}
+
+.secondaryText {
+  color: #a8a6a6 !important;
+}
+
+.smallText {
+  font-size: 0.8rem !important;
+}
+
+.mediumText {
+  font-size: 1.2rem !important;
+}
+
+.largeText {
+  font-size: 1.5rem !important;
+}
+
+.headerSmall {
+  font-size: 0.9rem !important;
+  font-weight: 550 !important;
+}
+
+.headerMedium {
+  font-size: 1.2rem !important;
+  font-weight: 550 !important;
+}
+
+.headerLarge {
+  color: #1d659c !important;
+  font-size: 1.5rem !important;
+  font-weight: 550 !important;
+}
+
+.gridLayout .componentLabel, .gridLayout .componentInstructions{
+  display : none;
+}
+
+.gridLayout a {
+  text-decoration : none;
+}
+
+tr.odd{
+  background: #FAFAFA !important;
+}
+
+.width3{
+  width:32% !important;
+  float : left;
+}
+
+
